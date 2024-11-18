@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 9%;
+
+    /* Text Colors */
+    --primary-foreground: 0 0% 9%;       /* #171717 */
+    --primary-hover-foreground: 0 0% 4%; /* #0a0a0a */
+    --primary-inverted-foreground: 0 0% 100%; /* #ffffff */
+    --secondary-foreground: 0 0% 32%;    /* #525252 */
+    --tertiary-foreground: 0 0% 45%;     /* #737373 */
+    --brand-foreground: 242 55% 39%;     /* #4338ca */
+    --disabled-foreground: 0 0% 64%;     /* #a3a3a3 */
+    --error-foreground: 0 78% 46%;       /* #dc2626 */
+    --error-emphasize-foreground: 0 83% 30%; /* #991b1b */
+    --success-foreground: 142 80% 30%;   /* #15803d */
+    --warning-foreground: 42 95% 19%;    /* #a16207 */
+
+    /* Background Colors */
+    --primary: 0 0% 100%;                /* #ffffff */
+    --primary-inverted: 0 0% 4%;         /* #0a0a0a */
+    --primary-hover: 0 0% 98%;           /* #fafafa */
+    --secondary: 220 14% 88%;            /* #e5e7eb */
+    --secondary-hover: 220 11% 84%;      /* #d1d5db */
+    --tertiary: 0 0% 98%;                /* #fafafa */
+    --disabled: 0 0% 96%;                /* #f5f5f5 */
+    --disabled-emphasize: 220 14% 95%;   /* #f3f4f6 */
+    --brand: 242 55% 39%;                /* #4338ca */
+    --brand-emphasize: 242 56% 32%;      /* #3730a3 */
+    --error: 0 78% 46%;                  /* #dc2626 */
+    --error-emphasize: 0 83% 36%;        /* #b91c1c */
+    --error-subtle: 0 100% 97%;          /* #fef2f2 */
+    --success-subtle: 142 100% 95%;      /* #f0fdf4 */
+    --brand-subtle: 231 100% 97%;        /* #eef2ff */
+    --neutral-subtle: 220 14% 97%;       /* #f9fafb */
+    --warning-subtle: 45 100% 97%;       /* #fffbeb */
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 215 20.2% 65.1%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --ring: 216 34% 17%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    min-height: 100vh;
+    line-height: 1.5;
+
+  }
+}
