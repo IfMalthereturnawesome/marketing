@@ -22,7 +22,7 @@ const ProfileInfo = ({
 }) => (
   <div className='flex flex-col items-center gap-6 self-stretch'>
     <hgroup className='flex flex-col items-center justify-center gap-1 self-stretch'>
-      <h2 className='text-center text-xl font-medium text-primary-foreground'>
+      <h2 className='relative top-[1px] self-stretch text-center text-xl font-medium text-primary-foreground'>
         {name}
       </h2>
       <p className='text-center text-sm font-normal text-secondary-foreground'>
@@ -84,11 +84,13 @@ const ProfileCard = ({
       )}
     >
       <div className='flex flex-col items-center gap-6 self-stretch'>
-        <img
-          src={image}
-          alt={name}
-          className={'h-16 w-16 rounded-full object-cover'}
-        />
+        <div className={'h-16 w-16'}>
+          <img
+            src={image}
+            alt={name}
+            className={'h-16 w-16 rounded-full object-cover'}
+          />
+        </div>
         <ProfileInfo name={name} handle={handle} description={description} />
       </div>
       <div className='flex flex-col gap-6 self-stretch'>
