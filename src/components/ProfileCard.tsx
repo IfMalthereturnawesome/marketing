@@ -60,7 +60,7 @@ const SocialLinks = () => {
         <li key={label}>
           <a href='#' aria-label={label} className='flex items-center'>
             <button className='flex justify-center gap-2 rounded p-2 focus:shadow-[0px_0px_0px_1px_#444ce7,_0px_0px_0px_4px_rgba(68,_76,_231,_0.12)] disabled:bg-disabled disabled:text-disabled-foreground'>
-              <Icon className='h-5 w-5' aria-hidden='true' />
+              <Icon className='size-5' aria-hidden='true' />
             </button>
           </a>
         </li>
