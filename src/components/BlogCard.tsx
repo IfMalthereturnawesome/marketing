@@ -24,14 +24,14 @@ const BlogCard = ({
         <img
           src={image}
           alt={title}
-          className={'self-stretch rounded-t-lg object-cover'}
+          className={'h-72 w-full rounded-t-lg object-cover'}
         />
       </div>
       <div className={'flex flex-col gap-3 self-stretch px-4 py-6'}>
         <hgroup className={'flex flex-col gap-2'}>
           <div
             className={
-              'border-success-border w-fit rounded-full border bg-success-subtle px-2 py-0.5'
+              'w-fit rounded-full border border-success-border bg-success-subtle px-2 py-0.5'
             }
           >
             <h5 className={'text-sm font-normal text-success-foreground'}>

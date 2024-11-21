@@ -1,3 +1,5 @@
+@import '@fontsource/noto-sans';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,38 +11,38 @@
 
     /* Text Colors */
     --primary-foreground: 0 0% 9%;       /* #171717 */
-    --primary-hover-foreground: 0 0% 4%; /* #0a0a0a */
+    --primary-hover-foreground: 0 0% 3.9%; /* #0a0a0a */
     --primary-inverted-foreground: 0 0% 100%; /* #ffffff */
-    --secondary-foreground: 0 0% 32%;    /* #525252 */
-    --tertiary-foreground: 0 0% 45%;     /* #737373 */
-    --brand-foreground: 242 55% 39%;     /* #4338ca */
-    --disabled-foreground: 0 0% 64%;     /* #a3a3a3 */
-    --error-foreground: 0 78% 46%;       /* #dc2626 */
-    --error-emphasize-foreground: 0 83% 30%; /* #991b1b */
-    --success-foreground: 142 80% 30%;   /* #15803d */
-    --warning-foreground: 42 95% 19%;    /* #a16207 */
+    --secondary-foreground: 0 0% 32.2%;    /* #525252 */
+    --tertiary-foreground: 0 0% 45.1%;     /* #737373 */
+    --brand-foreground: 244.5 57.9% 50.6%; /* #4338ca */
+    --disabled-foreground: 0 0% 63.9%;     /* #a3a3a3 */
+    --error-foreground: 0 72.2% 50.6%;     /* #dc2626 */
+    --error-emphasize-foreground: 0 70% 35.3%; /* #991b1b */
+    --success-foreground: 142.4 71.8% 29.2%;   /* #15803d */
+    --warning-foreground: 35.5 91.7% 32.9%;    /* #a16207 */
 
     /* Background Colors */
     --primary: 0 0% 100%;                /* #ffffff */
-    --primary-inverted: 0 0% 4%;         /* #0a0a0a */
+    --primary-inverted: 0 0% 3.9%;       /* #0a0a0a */
     --primary-hover: 0 0% 98%;           /* #fafafa */
-    --secondary: 220 14% 88%;            /* #e5e7eb */
-    --secondary-hover: 220 11% 84%;      /* #d1d5db */
+    --secondary: 220 13% 91%;            /* #e5e7eb */
+    --secondary-hover: 216 12.2% 83.9%;  /* #d1d5db */
     --tertiary: 0 0% 98%;                /* #fafafa */
-    --disabled: 0 0% 96%;                /* #f5f5f5 */
-    --disabled-emphasize: 220 14% 95%;   /* #f3f4f6 */
-    --brand: 242 55% 39%;                /* #4338ca */
-    --brand-emphasize: 242 56% 32%;      /* #3730a3 */
-    --error: 0 78% 46%;                  /* #dc2626 */
-    --error-emphasize: 0 83% 36%;        /* #b91c1c */
-    --error-subtle: 0 100% 97%;          /* #fef2f2 */
-    --success-subtle: 142 100% 95%;      /* #f0fdf4 */
-    --brand-subtle: 231 100% 97%;        /* #eef2ff */
-    --neutral-subtle: 220 14% 97%;       /* #f9fafb */
-    --warning-subtle: 45 100% 97%;       /* #fffbeb */
+    --disabled: 0 0% 96.1%;              /* #f5f5f5 */
+    --disabled-emphasize: 220 14.3% 95.9%; /* #f3f4f6 */
+    --brand: 244.5 57.9% 50.6%;          /* #4338ca */
+    --brand-emphasize: 243.7 54.5% 41.4%; /* #3730a3 */
+    --error: 0 72.2% 50.6%;              /* #dc2626 */
+    --error-emphasize: 0 73.7% 41.8%;    /* #b91c1c */
+    --error-subtle: 0 85.7% 97.3%;       /* #fef2f2 */
+    --success-subtle: 138.5 76.5% 96.7%; /* #f0fdf4 */
+    --brand-subtle: 225.9 100% 96.7%;    /* #eef2ff */
+    --neutral-subtle: 210 20% 98%;       /* #f9fafb */
+    --warning-subtle: 48 100% 96.1%;     /* #fffbeb */
 
     /* Border */
-    --success-border: 141 79% 85%;        /* #bbf7d0 */
+    --success-border: 141 78.9% 85.1%;    /* #bbf7d0 */
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
