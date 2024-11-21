@@ -84,13 +84,12 @@ const ProfileCard = ({
       )}
     >
       <div className='flex flex-col items-center gap-6 self-stretch'>
-        <div className={'h-16 w-16'}>
-          <img
-            src={image}
-            alt={name}
-            className={'h-16 w-16 rounded-full object-cover'}
-          />
-        </div>
+        <img
+          src={image}
+          alt={name}
+          className={'min-w-16 max-w-16 rounded-full object-cover'}
+        />
+
         <ProfileInfo name={name} handle={handle} description={description} />
       </div>
       <div className='flex flex-col gap-6 self-stretch'>
