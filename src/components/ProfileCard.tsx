@@ -60,7 +60,7 @@ const SocialLinks = () => {
         <li key={label}>
           <a href='#' aria-label={label} className='flex items-center'>
             <button className='flex justify-center gap-2 rounded p-2 focus:shadow-[0px_0px_0px_1px_#444ce7,_0px_0px_0px_4px_rgba(68,_76,_231,_0.12)] disabled:bg-disabled disabled:text-disabled-foreground'>
-              <Icon className='size-5' aria-hidden='true' />
+              <Icon className='h-5 w-5' aria-hidden='true' />
             </button>
           </a>
         </li>
@@ -86,8 +86,8 @@ const ProfileCard = ({
       <div className='flex flex-col items-center gap-6 self-stretch'>
         <img
           src={image}
-          alt={name}
-          className={'h-16 w-16 rounded-full object-cover'}
+          alt={`${name}´s profile picture`}
+          className={'h-16 w-16 flex-shrink-0 rounded-[50%] object-cover'}
         />
 
         <ProfileInfo name={name} handle={handle} description={description} />

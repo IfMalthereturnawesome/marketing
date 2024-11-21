@@ -13,6 +13,6 @@ export const profileCardData: ProfileCard[] = [
     handle: 'Front End Engineer @ Microsoft',
     description:
       'I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.  ',
-    image: '/images/profile.png',
+    image: '/images/profile-thumbnail.jpg',
   },
 ];
