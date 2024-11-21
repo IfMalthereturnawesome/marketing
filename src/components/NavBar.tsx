@@ -19,6 +19,11 @@ function NavBar() {
             Blog Card
           </Link>
         </li>
+        <li>
+          <Link to='/profile-card' className='text-primary-foreground'>
+            Profile Card
+          </Link>
+        </li>
       </ul>
     </nav>
   );
