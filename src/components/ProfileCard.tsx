@@ -87,7 +87,7 @@ const ProfileCard = ({
         <img
           src={image}
           alt={`${name}´s profile picture`}
-          className={'h-16 w-16 flex-shrink-0 rounded-[50%] object-cover'}
+          className={'mx-auto size-16 flex-shrink-0 rounded-full object-cover'}
         />
 
         <ProfileInfo name={name} handle={handle} description={description} />
