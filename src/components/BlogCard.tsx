@@ -63,7 +63,7 @@ const BlogCard = ({
                   'flex items-center justify-around gap-1.5 px-0.5 text-base font-medium hover:text-brand-primary-emphasize focus:rounded focus:bg-white focus:text-brand-primary-emphasize focus:shadow-[0px_0px_0px_1px_#444ce7,_0px_0px_0px_4px_rgba(68,_76,_231,_0.12)] disabled:pointer-events-none disabled:text-disabled-foreground'
                 }
               >
-                Read More
+                Read more
                 <ArrowRightIcon width={20} height={20} />
               </button>
             </a>
