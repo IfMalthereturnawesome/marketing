@@ -33,7 +33,7 @@ const TestimonialCard = ({
         <hgroup>
           <h2
             className={
-              'break-words text-justify text-lg font-semibold text-primary-foreground'
+              'break-words text-justify text-lg font-semibold tracking-wide text-primary-foreground'
             }
           >
             {authorName}
