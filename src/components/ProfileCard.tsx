@@ -79,7 +79,7 @@ const ProfileCard = ({
   return (
     <div
       className={cn(
-        'shadow-marketing mx-auto flex w-[340px] flex-col items-center gap-10 rounded-lg bg-primary px-4 py-6',
+        'shadow-marketing mx-auto flex w-[340px] flex-col items-center gap-10 rounded-lg border-none bg-primary px-4 py-6',
         className,
       )}
     >
