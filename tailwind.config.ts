@@ -3,9 +3,9 @@
 module.exports = {
   darkMode: ['class'],
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./src/*.{js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+    './src/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -21,7 +21,8 @@ module.exports = {
         disabled: 'hsl(var(--disabled) / <alpha-value>)',
         'disabled-emphasize': 'hsl(var(--disabled-emphasize) / <alpha-value>)',
         'brand-primary': 'hsl(var(--brand) / <alpha-value>)',
-        'brand-primary-emphasize': 'hsl(var(--brand-emphasize) / <alpha-value>)',
+        'brand-primary-emphasize':
+          'hsl(var(--brand-emphasize) / <alpha-value>)',
         'brand-subtle': 'hsl(var(--brand-subtle) / <alpha-value>)',
         error: 'hsl(var(--error) / <alpha-value>)',
         'error-emphasize': 'hsl(var(--error-emphasize) / <alpha-value>)',
@@ -32,16 +33,23 @@ module.exports = {
 
         /* Text Colors (using the '-foreground' suffix) */
         'primary-foreground': 'hsl(var(--primary-foreground) / <alpha-value>)',
-        'primary-hover-foreground': 'hsl(var(--primary-hover-foreground) / <alpha-value>)',
-        'primary-inverted-foreground': 'hsl(var(--primary-inverted-foreground) / <alpha-value>)',
-        'secondary-foreground': 'hsl(var(--secondary-foreground) / <alpha-value>)',
-        'tertiary-foreground': 'hsl(var(--tertiary-foreground) / <alpha-value>)',
+        'primary-hover-foreground':
+          'hsl(var(--primary-hover-foreground) / <alpha-value>)',
+        'primary-inverted-foreground':
+          'hsl(var(--primary-inverted-foreground) / <alpha-value>)',
+        'secondary-foreground':
+          'hsl(var(--secondary-foreground) / <alpha-value>)',
+        'tertiary-foreground':
+          'hsl(var(--tertiary-foreground) / <alpha-value>)',
         'brand-foreground': 'hsl(var(--brand-foreground) / <alpha-value>)',
-        'disabled-foreground': 'hsl(var(--disabled-foreground) / <alpha-value>)',
+        'disabled-foreground':
+          'hsl(var(--disabled-foreground) / <alpha-value>)',
         'error-foreground': 'hsl(var(--error-foreground) / <alpha-value>)',
-        'error-emphasize-foreground': 'hsl(var(--error-emphasize-foreground) / <alpha-value>)',
+        'error-emphasize-foreground':
+          'hsl(var(--error-emphasize-foreground) / <alpha-value>)',
         'success-foreground': 'hsl(var(--success-foreground) / <alpha-value>)',
         'warning-foreground': 'hsl(var(--warning-foreground) / <alpha-value>)',
+        'success-border': 'hsl(var(--success-border) / <alpha-value>)',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -66,4 +74,3 @@ module.exports = {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require('tailwindcss-animate')],
 };
-

@@ -39,6 +39,9 @@
     --neutral-subtle: 220 14% 97%;       /* #f9fafb */
     --warning-subtle: 45 100% 97%;       /* #fffbeb */
 
+    /* Border */
+    --success-border: 141 79% 85%;        /* #bbf7d0 */
+
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 215 20.2% 65.1%;
@@ -71,11 +74,15 @@
 @layer base {
   * {
     @apply border-border;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
   body {
     @apply font-sans antialiased bg-background text-foreground;
     min-height: 100vh;
     line-height: 1.5;
+    border: 1px
 
   }
 }
