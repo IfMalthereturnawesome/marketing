@@ -11,7 +11,7 @@ const HeroSection = ({ title, description, image, imageBig, className }: HeroSec
 			className={`flex w-full flex-1 flex-col justify-center rounded-md bg-neutral-subtle shadow-sm md:py-2 md:shadow-md
 				lg:shadow-lg`}
 		>
-			<section className={cn('flex flex-col items-start self-stretch px-3 md:px-4', className)}>
+			<section className={cn('flex flex-col items-start self-stretch px-3 md:px-4 lg:px-0', className)}>
 				<div
 					className={`flex flex-col items-center justify-center gap-12 self-stretch py-12 md:gap-8 md:py-16 lg:flex-row lg:p-24
 						2xl:px-48 2xl:py-24`}
