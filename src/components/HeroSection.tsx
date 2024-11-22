@@ -8,7 +8,7 @@ type HeroSectionProps = HeroSection & {
 const HeroSection = ({ title, description, image, imageBig, className }: HeroSectionProps) => {
 	return (
 		<div
-			className={`flex w-full flex-1 flex-col justify-center rounded-lg bg-neutral-subtle shadow-sm md:py-2 md:shadow-md
+			className={`flex w-full flex-1 flex-col justify-center rounded-md bg-neutral-subtle shadow-sm md:py-2 md:shadow-md
 				lg:shadow-lg`}
 		>
 			<section className={cn('flex flex-col items-start self-stretch px-3 md:px-4', className)}>
