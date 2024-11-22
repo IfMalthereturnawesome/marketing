@@ -70,16 +70,16 @@ const HeroSection = ({ title, description, image, imageBig, className }: HeroSec
 							</a>
 						</div>
 					</div>
-					<div className={'rounded-lg'}>
+					<div className={'flex w-full items-center justify-center self-stretch rounded-lg'}>
 						<img
 							src={image}
 							alt={'Prism image'}
-							className={'flex h-auto w-full items-center self-stretch object-cover md:hidden'}
+							className={'flex items-center self-stretch object-cover md:hidden'}
 						/>
 						<img
 							src={imageBig}
 							alt={'Prism image'}
-							className={'hidden h-auto w-full object-cover md:block'}
+							className={'hidden items-center justify-center self-stretch object-cover md:flex'}
 						/>
 						{/*  Different images for different devices */}
 					</div>
