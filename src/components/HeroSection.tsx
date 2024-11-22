@@ -5,7 +5,7 @@ type HeroSectionProps = HeroSection & {
 	className?: string;
 };
 
-const HeroSection = ({ title, description, image, imageBig, className }: HeroSectionProps) => {
+const HeroSection = ({ title, description, imageBig, className }: HeroSectionProps) => {
 	return (
 		<div
 			className={`flex w-full flex-1 flex-col justify-center rounded-md bg-neutral-subtle shadow-sm md:py-2 md:shadow-md
@@ -72,7 +72,7 @@ const HeroSection = ({ title, description, image, imageBig, className }: HeroSec
 					</div>
 					<div className={'flex w-full items-center justify-center self-stretch rounded-lg'}>
 						<img
-							src={image}
+							src={imageBig}
 							alt={'Prism image'}
 							className={'object-cover md:hidden'}
 						/>
