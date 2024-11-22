@@ -19,7 +19,7 @@ const HeroSection = ({ title, description, image, imageBig, className }: HeroSec
 					<div className={'flex flex-col gap-8 self-stretch md:gap-16 lg:justify-center'}>
 						<hgroup
 							className={
-								'flex flex-col items-center justify-center gap-4 self-stretch md:items-start lg:gap-6'
+								'flex flex-col items-center justify-center gap-4 self-stretch md:items-start md:gap-6'
 							}
 						>
 							<h1
@@ -70,16 +70,16 @@ const HeroSection = ({ title, description, image, imageBig, className }: HeroSec
 							</a>
 						</div>
 					</div>
-					<div className={'flex w-full items-center justify-center self-stretch rounded-lg'}>
+					<div className={'rounded-lg'}>
 						<img
 							src={image}
 							alt={'Prism image'}
-							className={'flex items-center self-stretch object-cover md:hidden'}
+							className={'flex h-auto w-full items-center self-stretch object-cover md:hidden'}
 						/>
 						<img
 							src={imageBig}
 							alt={'Prism image'}
-							className={'hidden object-cover md:block'}
+							className={'hidden h-auto w-full object-cover md:block'}
 						/>
 						{/*  Different images for different devices */}
 					</div>
