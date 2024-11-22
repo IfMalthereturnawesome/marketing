@@ -5,6 +5,7 @@ import './App.css';
 import TestimonialCardPage from '@/pages/testimonial-card-page';
 import BlogCardPage from '@/pages/blog-card-page.tsx';
 import ProfileCardPage from '@/pages/profile-card-page.tsx';
+import HeroSectionPage from '@/pages/hero-section-page.tsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/testimonial-card' element={<TestimonialCardPage />} />
         <Route path='/blog-card' element={<BlogCardPage />} />
         <Route path='/profile-card' element={<ProfileCardPage />} />
+        <Route path='/hero-section' element={<HeroSectionPage />} />
       </Routes>
     </>
   );

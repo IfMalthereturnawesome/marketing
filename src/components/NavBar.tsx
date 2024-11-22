@@ -24,6 +24,11 @@ function NavBar() {
             Profile Card
           </Link>
         </li>
+        <li>
+          <Link to='/hero-section' className='text-primary-foreground'>
+            Hero Section
+          </Link>
+        </li>
       </ul>
     </nav>
   );
