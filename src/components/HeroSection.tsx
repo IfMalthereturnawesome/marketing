@@ -74,7 +74,7 @@ const HeroSection = ({ title, description, image, imageBig, className }: HeroSec
 						<img
 							src={image}
 							alt={'Prism image'}
-							className={'flex items-center self-stretch object-cover p-8 md:hidden'}
+							className={'flex items-center self-stretch object-cover md:hidden'}
 						/>
 						<img
 							src={imageBig}
