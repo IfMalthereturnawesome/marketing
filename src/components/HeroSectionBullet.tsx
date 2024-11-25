@@ -61,11 +61,10 @@ const HeroSectionBullet = ({ title, image, bullets, className }: HeroSectionBull
 								className={'w-full lg:col-span-1 lg:flex-1'}
 							>
 								<button
-									className={`shadow-marketing flex w-full grow items-center justify-center rounded border-[0.5px] border-solid
-										bg-white px-5 py-3 text-base font-medium text-primary-foreground transition-all duration-100
-										ease-in-out hover:border hover:bg-primary-hover focus:bg-primary-hover
-										focus:shadow-[0px_0px_0px_4px_rgba(68,_76,_231,_0.12)] disabled:bg-disabled
-										disabled:text-disabled-foreground md:gap-2.5 md:px-6 md:py-4 md:text-lg`}
+									className={`borderSmall flex w-full grow items-center justify-center rounded bg-white px-5 py-3 text-base
+										font-medium text-primary-foreground shadow transition-all duration-100 ease-in-out hover:border
+										hover:bg-primary-hover focus:bg-primary-hover focus:shadow-[0px_0px_0px_4px_rgba(68,_76,_231,_0.12)]
+										disabled:bg-disabled disabled:text-disabled-foreground md:gap-2.5 md:px-6 md:py-4 md:text-lg`}
 									type={'button'}
 								>
 									Learn more

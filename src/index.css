@@ -85,6 +85,7 @@
 
 
   }
+
 }
 
 @layer components {
@@ -96,6 +97,8 @@
   .page-background {
     background: linear-gradient(147.52deg, #f9fafb 8.89%, #d2d6db 100.48%);
   }
-
+  .borderSmall {
+    border: 0.5px solid #E5E5E5;
+  }
 
 }
