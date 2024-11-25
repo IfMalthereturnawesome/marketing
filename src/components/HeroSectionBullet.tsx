@@ -21,7 +21,7 @@ const HeroSectionBullet = ({ title, image, bullets, className }: HeroSectionBull
 							<h1 className='text-4xl font-semibold md:text-5xl lg:text-6xl'>{title}</h1>
 						</header>
 						<div className='w-full'>
-							<ul className='flex w-full flex-col gap-6 self-stretch'>
+							<ul className='flex w-full flex-col gap-5 self-stretch'>
 								{bullets.map((bullet) => (
 									<div>
 										<li
@@ -39,7 +39,7 @@ const HeroSectionBullet = ({ title, image, bullets, className }: HeroSectionBull
 								))}
 							</ul>
 						</div>
-						<div className='grid grid-cols-2 gap-4 md:grid-cols-3 lg:w-4/5 lg:grid-cols-2 lg:gap-8'>
+						<div className='grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-8 lg:w-4/5 lg:grid-cols-2 lg:gap-8'>
 							<a
 								href='#'
 								className={'w-full md:order-2 lg:col-span-1 lg:flex-1'}
