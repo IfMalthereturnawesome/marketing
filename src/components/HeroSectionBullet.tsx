@@ -9,10 +9,10 @@ type HeroSectionBulletProps = HeroSectionBullet & {
 const HeroSectionBullet = ({ title, image, bullets, className }: HeroSectionBulletProps) => {
 	return (
 		<div className='flex w-full rounded bg-primary shadow-sm md:rounded-md md:py-2 md:shadow-md lg:shadow-lg'>
-			<div className='flex w-full justify-center px-4 py-12 md:py-16 lg:p-24'>
+			<div className='flex w-full justify-center px-4 py-12 md:py-16 lg:p-24 2xl:px-40'>
 				<section
 					className={cn(
-						'flex w-full flex-col items-center justify-center gap-12 self-stretch lg:flex-row lg:gap-8',
+						'flex w-full flex-col items-center justify-center gap-12 self-stretch lg:flex-row lg:gap-8 2xl:gap-12',
 						className,
 					)}
 				>
@@ -77,8 +77,8 @@ const HeroSectionBullet = ({ title, image, bullets, className }: HeroSectionBull
 						<img
 							src={image}
 							alt={title}
-							className={`col-span-6 flex h-[264px] w-full justify-center rounded-lg object-fill md:h-[526px] md:rounded-2xl
-								lg:col-span-7`}
+							className={`col-span-6 flex h-[264px] w-full justify-center rounded-lg object-cover md:h-[526px] md:rounded-2xl
+								lg:col-span-7 2xl:h-[750px]`}
 						/>
 					</div>
 				</section>
