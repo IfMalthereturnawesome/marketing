@@ -36,14 +36,14 @@ const FeatureSectionSideImage = ({
 						<hgroup className='flex flex-col gap-5 lg:px-40'>
 							<div className='flex flex-col gap-3 lg:px-10'>
 								<h4 className='text-base font-semibold text-brand-foreground'>{subtitle}</h4>
-								<h1 className='text-3xl font-semibold text-primary-foreground md:text-5xl lg:whitespace-pre-wrap'>
+								<h1 className='text-3xl font-semibold text-primary-foreground md:text-5xl lg:whitespace-pre-line'>
 									{title}
 								</h1>
 							</div>
 							<div className='flex w-full justify-center self-stretch'>
 								<p
-									className={`${orientation === 'left' ? 'lg:whitespace-pre-wrap' : 'lg:whitespace-normal'} flex text-lg
-										font-normal text-secondary-foreground md:whitespace-pre-wrap md:text-wrap md:text-center md:text-xl
+									className={`${orientation === 'left' ? 'lg:whitespace-pre-line' : 'lg:whitespace-normal'} flex text-lg
+										font-normal text-secondary-foreground md:whitespace-pre-line md:text-wrap md:text-center md:text-xl
 										lg:whitespace-normal`}
 								>
 									{description}
@@ -69,7 +69,7 @@ const FeatureSectionSideImage = ({
 											id={item.id}
 											className='flex gap-4 md:gap-5'
 										>
-											<div className='h-fit rounded-full bg-white p-3 shadow'>
+											<div className='shadow-marketing h-fit rounded-full bg-white p-3'>
 												<item.icon
 													size={24}
 													className={'text-indigo-700'}

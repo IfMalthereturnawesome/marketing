@@ -92,7 +92,7 @@
   .shadow-marketing {
     box-shadow:
             0 1px 3px 0 rgba(0, 0, 0, 0.1),
-            0 1px 1px 0 rgba(0, 0, 0, 0.06);
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
   }
   .page-background {
     background: linear-gradient(147.52deg, #f9fafb 8.89%, #d2d6db 100.48%);
