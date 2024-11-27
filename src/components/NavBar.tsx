@@ -52,6 +52,22 @@ function NavBar() {
 						Hero Section Bullet
 					</Link>
 				</li>
+				<li>
+					<Link
+						to='/feature-section-left'
+						className='text-primary-foreground'
+					>
+						Feature Section Left
+					</Link>
+				</li>
+				<li>
+					<Link
+						to='/feature-section-right'
+						className='text-primary-foreground'
+					>
+						Feature Section Right
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	);

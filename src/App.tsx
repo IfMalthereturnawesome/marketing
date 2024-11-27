@@ -7,6 +7,7 @@ import BlogCardPage from '@/pages/blog-card-page.tsx';
 import ProfileCardPage from '@/pages/profile-card-page.tsx';
 import HeroSectionPage from '@/pages/hero-section-page.tsx';
 import HeroSectionBulletsPage from '@/pages/hero-section-bullets-page.tsx';
+import FeatureSectionSideImagePage from '@/pages/feature-section-side-image-page.tsx';
 
 function App() {
 	return (
@@ -35,6 +36,14 @@ function App() {
 				<Route
 					path='/hero-section-bullet'
 					element={<HeroSectionBulletsPage />}
+				/>
+				<Route
+					path='/feature-section-left'
+					element={<FeatureSectionSideImagePage orientation='left' />}
+				/>
+				<Route
+					path='/feature-section-right'
+					element={<FeatureSectionSideImagePage orientation='right' />}
 				/>
 			</Routes>
 		</>
