@@ -8,6 +8,7 @@ import ProfileCardPage from '@/pages/profile-card-page.tsx';
 import HeroSectionPage from '@/pages/hero-section-page.tsx';
 import HeroSectionBulletsPage from '@/pages/hero-section-bullets-page.tsx';
 import FeatureSectionSideImagePage from '@/pages/feature-section-side-image-page.tsx';
+import FeatureSectionGridPage from '@/pages/feature-section-grid-page.tsx';
 
 function App() {
 	return (
@@ -44,6 +45,10 @@ function App() {
 				<Route
 					path='/feature-section-right'
 					element={<FeatureSectionSideImagePage orientation='right' />}
+				/>
+				<Route
+					path='/feature-section-grid'
+					element={<FeatureSectionGridPage />}
 				/>
 			</Routes>
 		</>

@@ -68,6 +68,14 @@ function NavBar() {
 						Feature Section Right
 					</Link>
 				</li>
+				<li>
+					<Link
+						to='/feature-section-grid'
+						className='text-primary-foreground'
+					>
+						Feature Section Grid
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	);
