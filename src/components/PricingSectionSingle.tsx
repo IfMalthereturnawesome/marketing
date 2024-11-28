@@ -35,7 +35,7 @@ const PricingSectionSingle = ({
 							</p>
 						</hgroup>
 					</div>
-					<div className='flex w-full flex-col gap-8 lg:flex-row lg:items-start'>
+					<div className='flex w-full flex-col gap-8 lg:max-w-screen-xl lg:flex-row lg:items-start'>
 						<div className='lg:flex lg:h-full lg:flex-1 lg:flex-col lg:justify-center'>
 							{list.map((item) => (
 								<div
