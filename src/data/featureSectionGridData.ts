@@ -43,7 +43,7 @@ export const featureSectionGridData: FeatureSectionGrid[] = [
 				icon: RiBrushLine,
 				header: 'Purely Handcrafted',
 				description:
-					' No AI, no generic images. Crafted from various chemicals, fabrics, clouds, or even particles as small as dust.',
+					'No AI, no generic images. Crafted from various chemicals, fabrics, clouds, or even particles as small as dust.',
 			},
 			{
 				id: '3',
