@@ -76,6 +76,14 @@ function NavBar() {
 						Feature Section Grid
 					</Link>
 				</li>
+				<li>
+					<Link
+						to='/pricing-section-single'
+						className='text-primary-foreground'
+					>
+						Pricing Section Single
+					</Link>
+				</li>
 			</ul>
 		</nav>
 	);
