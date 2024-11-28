@@ -14,13 +14,13 @@ const FeatureSectionGrid = ({
 }: FeatureSectionGridProps) => {
 	return (
 		<div className='w-full rounded bg-primary shadow-sm md:rounded-md md:shadow-md lg:shadow-lg'>
-			<div className='flex flex-col px-3 py-12 md:px-4 md:py-16 lg:p-24'>
+			<div className='flex h-full flex-col items-center justify-center px-3 py-12 md:px-4 md:py-16 lg:p-24'>
 				<section
 					className={cn('flex flex-col items-center justify-center gap-12 md:gap-16', className)}
 				>
 					<div className='text-center'>
-						<hgroup className='flex flex-col gap-5'>
-							<div className='flex flex-col gap-3'>
+						<hgroup className='flex flex-col gap-5 lg:px-40'>
+							<div className='flex flex-col gap-3 lg:px-10'>
 								<h4 className='text-base font-semibold text-brand-foreground'>{subtitle}</h4>
 								<h1 className='text-3xl font-semibold text-primary-foreground md:text-5xl'>
 									{title}
